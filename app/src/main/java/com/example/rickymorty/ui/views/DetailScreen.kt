@@ -32,7 +32,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.example.rickymorty.ui.ViewModel.getCharacterList
-import com.example.rickymorty.views.DetailRow
+import com.example.rickymorty.ui.views.DetailRow
 
 @Composable
 fun DetailScreen(navController: NavController, characterId: Int, modifier: Modifier = Modifier) {

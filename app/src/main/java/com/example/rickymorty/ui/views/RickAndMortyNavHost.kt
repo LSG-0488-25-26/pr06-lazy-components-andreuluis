@@ -8,6 +8,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import com.example.rickymorty.nav.Routes
+import com.example.rickymorty.ui.views.DetailScreen
+import com.example.rickymorty.ui.views.ListView
 
 @Composable
 fun RickAndMortyNavHost(modifier: Modifier, navController: NavHostController) {
