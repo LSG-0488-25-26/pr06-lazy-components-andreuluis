@@ -1,5 +1,4 @@
-package com.example.rickandmorty
-
+package com.example.rickymorty.ui.model
 
 data class Character(
     val id: Int,
@@ -8,5 +7,5 @@ data class Character(
     val species: String,
     val gender: String,
     val origin: String,
-    val imageUrl: String
+    val imageRes: Int
 )
