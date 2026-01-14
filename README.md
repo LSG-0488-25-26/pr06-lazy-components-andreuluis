@@ -27,3 +27,7 @@ Este es un proyecto de Android nativo desarrollado con **Kotlin** y **Jetpack Co
   - `data/`: Acceso a datos (repositorios, servicios, etc.).
 - `app/src/main/res/`
   - Recursos como imágenes (`drawable`) y strings (`values`).
+
+  <img width="350" height="782" alt="image" src="https://github.com/user-attachments/assets/031441cf-c01c-438f-ad48-4f186701a38f" />
+<img width="356" height="778" alt="image" src="https://github.com/user-attachments/assets/7e3beea5-302c-4970-8b9e-12a0aacb8e25" />
+
