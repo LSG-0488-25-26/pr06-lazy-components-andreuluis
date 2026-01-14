@@ -32,6 +32,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.example.rickymorty.ui.ViewModel.getCharacterList
+import com.example.rickymorty.views.DetailRow
 
 @Composable
 fun DetailScreen(navController: NavController, characterId: Int, modifier: Modifier = Modifier) {
@@ -65,7 +66,12 @@ fun DetailScreen(navController: NavController, characterId: Int, modifier: Modif
                     modifier = Modifier.fillMaxWidth(),
                     elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
                 ) {
-
+                    Column(modifier = Modifier.padding(16.dp)) {
+                        DetailRow("Status", character.status)
+                        DetailRow("Species", character.species)
+                        DetailRow("Gender", character.gender)
+                        DetailRow("Origin", character.origin)
+                    }
                 }
 
                 Spacer(modifier = Modifier.height(24.dp))
