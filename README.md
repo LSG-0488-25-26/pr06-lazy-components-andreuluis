@@ -1,4 +1,4 @@
-# Proyecto Rick & Morty (pr06-lazy-components-andreuluis)
+# Proyecto Rick & Morty 
 
 ![Rick and Morty](https://rickandmortyapi.com/api/character/avatar/1.jpeg)
 
