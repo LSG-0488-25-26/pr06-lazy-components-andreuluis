@@ -85,8 +85,8 @@ fun DetailScreen(navController: NavController, characterId: Int, modifier: Modif
             ) {
                 Icon(
                     imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                    contentDescription = "go back",
-                    tint = Color.Black,
+                    contentDescription = "atrás",
+                    tint = Color.Green,
                     modifier = Modifier.size(32.dp)
                 )
             }
